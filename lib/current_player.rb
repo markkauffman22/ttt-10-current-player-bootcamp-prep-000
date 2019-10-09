@@ -31,7 +31,7 @@ def current_player(board)
 end
 
 myTurn = current_player(board1)
-puts "PLAYER: "
+print "PLAYER IS: " , myturn
 puts myTurn
 
 
