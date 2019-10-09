@@ -6,11 +6,12 @@ def turn_count (board)
     if #{value} == ("X" || "O")
       count += 1
     end
-  end  
+  end
+  print "COUNT: "
+  puts count
 end 
 
-    print "COUNT: "
-    PUTS count
+
 
 turn_count(board1)
 
