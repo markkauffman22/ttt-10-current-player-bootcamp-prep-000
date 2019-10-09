@@ -13,8 +13,6 @@ def turn_count (board)
   return count
 end 
 
-#turn_count(board1)
-
 def current_player(board)
   count = turn_count(board)
   if count == 0
@@ -28,7 +26,7 @@ def current_player(board)
 end
 
 myTurn = current_player(board1)
-puts "PLAYER IS: " , myTurn
+print "PLAYER IS: " ; puts myTurn
 
 
 
