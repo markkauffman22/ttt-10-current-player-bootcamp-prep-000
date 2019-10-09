@@ -18,11 +18,9 @@ end
 def current_player(board)
   count = turn_count(board)
   if count == 0
-    puts "ZERO: X"
     return "X" 
   elsif 
     count % 2 == 0  # it's even so "X" plays next...
-    puts "X"
     return "X"
   else 
     puts "O"
