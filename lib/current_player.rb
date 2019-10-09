@@ -12,6 +12,7 @@ def turn_count (board)
   end
   print "COUNT: "
   puts count
+  return count
 end 
 
 
