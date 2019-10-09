@@ -1,7 +1,7 @@
 
 
 def turn_count (board)
-  
+  board1 = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
 end
 
 
