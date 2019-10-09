@@ -6,6 +6,7 @@ def turn_count (board)
     puts "#{value}"
     if "#{value}" == ("X" || "O")
       count += 1
+      puts "YES!"
       puts count
     end
   end
