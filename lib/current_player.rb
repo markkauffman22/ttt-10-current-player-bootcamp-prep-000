@@ -21,12 +21,12 @@ def current_player(board)
     puts "ZERO: X"
     return "X" 
   elsif 
-    count % 2 == 0  # it's even so "O" plays ...
-    puts "O"
-    return "O"
-  else 
+    count % 2 == 0  # it's even so "X" plays next...
     puts "X"
     return "X"
+  else 
+    puts "O"
+    return "O"
   end 
 end
 
