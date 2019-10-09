@@ -30,6 +30,6 @@ def current_player(board)
   end 
 end
 
-#current_player(board1)
+current_player(board1)
 
 
