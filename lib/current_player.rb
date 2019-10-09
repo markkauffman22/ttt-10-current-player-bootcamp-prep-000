@@ -1,6 +1,7 @@
 
 #board1 = ["X", " ", " ", " ", "O", "X", " ", " ", " "]
 board1 = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 def turn_count (board)
   count = 0
   board.each do |value|
@@ -23,7 +24,6 @@ def current_player(board)
     count % 2 == 0  # it's even so "X" plays next...
     return "X"
   else 
-    puts "O"
     return "O"
   end 
 end
