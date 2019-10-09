@@ -29,7 +29,6 @@ def current_player(board)
   end 
 end
 
-current_player(board)
-
+current_player(board1)
 
 
