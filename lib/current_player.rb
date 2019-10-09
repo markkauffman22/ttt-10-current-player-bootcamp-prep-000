@@ -12,7 +12,7 @@ def turn_count (board)
   return count
 end 
 
-turn_count(board1)
+#turn_count(board1)
 
 def current_player(board)
   count = turn_count(board)
