@@ -17,13 +17,14 @@ turn_count(board1)
 def current_player(board)
   count = turn_count(board)
   if count == 0
-    print "ZERO: X"
+    puts "ZERO: X"
     return "X" 
   elsif 
     count % 2 == 0  # it's even so "O" plays ...
-    
+    puts "O"
     return "O"
   else 
+    puts "X"
     return "X"
   end 
 end
