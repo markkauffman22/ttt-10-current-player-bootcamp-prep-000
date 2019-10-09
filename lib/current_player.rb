@@ -24,9 +24,11 @@ def current_player(board)
   elsif 
     count % 2 == 0  # it's even so "O" plays ...
     puts "O"
+    board[count] = "X"
     return "O"
   else 
     puts "X"
+    board[count] = "X"
     return "X"
   end 
 end
