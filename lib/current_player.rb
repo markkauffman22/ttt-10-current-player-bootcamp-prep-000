@@ -19,9 +19,11 @@ def current_player(board)
   if count == 0
     return "X" 
   elsif 
-  
+    count % 2 == 0  # it's even so "O" plays ...
+    return ""
+  else 
+    return "X"
   end 
-  
 end
 
 
