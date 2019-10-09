@@ -15,7 +15,8 @@ end
 turn_count(board1)
 
 def current_player(board)
-  puts "hold"
+  count = turn_count(board)
+  
   
   
 end
